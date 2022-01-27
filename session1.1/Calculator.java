@@ -36,7 +36,7 @@ public class Calculator {
 			
 		case '/':
 			division=n1/n2;
-			System.out.println("sum is:"+(division));
+			System.out.println("division is:"+(division));
 			break;
 			
 			default:
