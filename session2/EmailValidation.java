@@ -27,7 +27,6 @@ public class EmailValidation {
           address.add("princepk@gmail.com");
           address.add("simplilearn@gmail.com");
           address.add("companyemail@gmail.com");
-          address.add("myemail");
             
         for(String i : address){
             if (isValid(i))
