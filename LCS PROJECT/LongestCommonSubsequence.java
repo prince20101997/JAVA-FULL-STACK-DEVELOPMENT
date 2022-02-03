@@ -23,8 +23,6 @@ public class LongestCommonSubsequence {
 	    	System.out.println("enter second String:");
 	    	String s2=sc.nextLine();
 	        LongestCommonSubsequence lcs = new LongestCommonSubsequence();
-	        //String s1 = "AGGTAB";
-	       // String s2 = "GXTXAYB";
 	  
 	        char[] X = s1.toCharArray();
 	        char[] Y = s2.toCharArray();
