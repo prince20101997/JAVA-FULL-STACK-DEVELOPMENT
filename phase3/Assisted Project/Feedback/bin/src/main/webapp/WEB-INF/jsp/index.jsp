@@ -13,8 +13,7 @@
 
 <!-- Can only use these (below) if you have jersey dependency -->
 <br/><br/>
-<p>Can only use these link below if you have the jersey dependency added to this dependency.
-Jersey has been added to this project so it can use the links below.</p>
+<p>Use below links if you added jersey dependency..</p>
 
 <a href="feedbacks">See all feedbacks as Json format</a><br/><br/>
 <a href="profile/feedbacks">See Json's in profile</a>
