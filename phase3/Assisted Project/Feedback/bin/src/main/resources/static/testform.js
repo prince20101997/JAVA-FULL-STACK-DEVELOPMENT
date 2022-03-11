@@ -4,7 +4,7 @@ function SubmitTestForm() {
 	
 	//TODO: gather fields from form
 	//TODO: Jsonify form fields
-	//TODO: Call postFormDataAsJson to http://localhost:8090/your/endpoint
+	//TODO: Call postFormDataAsJson to http://localhost:8080/your/endpoint
   alert("The form was submitted");
 }
 
