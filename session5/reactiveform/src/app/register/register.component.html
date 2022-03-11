@@ -1,0 +1,22 @@
+<div class="jumbotron">
+    <div class="container">
+          <div class="row">
+              <div class="col-md-6 offset-md-3">
+                  <h2>Registration Reactive Form</h2>
+             <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                 <div class="form-group">
+                     <label>First Name</label>
+                     <input type="text" formControlName="firstName" class="form-control"
+                     [ngClass]="{'is-invalid':submitted && f.firstName.errors}"/>
+
+                     <div *ngIf="submitted" && f.firstName.errors" class="invalid-feedback">
+                    <div *ngIf="f.firstName.errors.required">
+                        First Name can't br Empty
+                    </div>
+                    </div>
+                 </div>
+             </form>
+                </div>
+          </div>
+    </div>
+</div>
