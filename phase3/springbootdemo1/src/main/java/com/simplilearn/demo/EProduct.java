@@ -1,6 +1,8 @@
 package com.simplilearn.demo;
+
 import java.math.BigDecimal;
 import java.util.Date;
+
 public class EProduct {
 
 	private long ID;
@@ -31,5 +33,6 @@ public class EProduct {
 	public void setDateAdded(Date dateAdded) {
 		this.dateAdded = dateAdded;
 	}
+	
 	
 }

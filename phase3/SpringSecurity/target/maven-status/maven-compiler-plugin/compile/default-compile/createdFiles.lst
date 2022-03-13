@@ -1,0 +1,7 @@
+com\project\SpringSecurity\entities\User.class
+com\project\SpringSecurity\WebSecurityConfig.class
+com\project\SpringSecurity\MvcConfig.class
+com\project\SpringSecurity\entities\MyUserDetails.class
+com\project\SpringSecurity\services\MyUserDetailsService.class
+com\project\SpringSecurity\repositories\UsersRepository.class
+com\project\SpringSecurity\SpringSecurityApplication.class
